@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Lab2 - Meeeting Minutes</title>
+    <meta charset="UTF-8"/>
+    <link rel="icon" type="image/x-icon" href="assets/favicon.png"/>
+  </head>
+  <body>
+    <header>
+      <h1>Meeting Minutes</h1>
+      <section>
+        <img 
+          src="https://buncombepwd.com/wp-content/uploads/2019/06/class-meeting-clipart-1-1024x585.png" 
+          alt="meeting table" 
+          width="300"/>
+        <p>Date: 4/14/24</p>
+        <p>Type: <i>Weekly Check-in</i></p>
+      </section>
+      <nav>
+        <ul>
+          <li><a href="#agenda">Agenda</a></li>
+          <li><a href="#comments">Notes & Takeaways</a></li>
+          <li><a href="#form">Check-in Form</a></li>
+        </ul>
+      </nav>
+    </header>
+    <hr/>
+    <main>
+      <h2 id="agenda">Agenda</h2>
+      <ol>
+        <li>Ice-breaker</li>
+        <li>Recap last meeting</li>
+        <li>Vote on branding choices</li>
+        <li>Assign new project tasks</li>
+        <li>Feedback</li>
+      </ol>
+
+      <h2 id="comments">Notes & Takeaways</h2>
+      <p>
+        <span class="member">John</span>, <span class="member">Jane</span>, and <span class="member">Jerry</span> will collaborate on a new website color scheme.
+        <br/>Allison will lead the next check-in  meeting.
+      </p>
+      <p>
+        <strong>Important:</strong> Everyone <b class="term">must</b> submit their photo and introduction by <em>Sunday at 11:59 pm.</em>
+      </p>
+
+      <h3 id="form">Check-in Form</h3>
+      <form action="" method="get" class="form-example">
+        <div class="form-example">
+          <label for="firstname">First Name: </label>
+          <input type="text" name="firstname" id="firstname" required />
+        </div>
+        <div class="form-example">
+          <label for="lastname">Last Name: </label>
+          <input type="text" name="lastname" id="lastname" required />
+        </div>
+        <div class="form-example">
+          <label for="date">Date:</label>
+          <input type="date" id="date" name="date" value="2024-01-01" min="2024-01-01" max="2024-12-31" />
+        </div>
+        <div class="form-example">
+          <label for="attendance-choice">Select Attendance Type:</label>
+          <input list="attendance-types" id="attendance-choice" name="attendance-choice" />
+          <datalist id="attendance-types">
+            <option value="In-Person"></option>
+            <option value="Remote"></option>
+            <option value="Absent"></option>
+          </datalist>
+        </div>
+        <div>
+          <label for="type-select">Select Meeting Type:</label>
+          <select id="type-select">
+            <option value="">--Please choose an option--</option>
+            <option value="check-in">Check-in</option>
+            <option value="brainstorm">Brainstorm</option>
+            <option value="doc">Documentation</option>
+          </select>
+        </div>
+        <fieldset>
+          <legend>Select Role:</legend>
+          <div>
+            <input type="radio" id="front-end" name="role" value="front-end"  />
+            <label for="front-end">Front End</label>
+          </div>
+          <div>
+            <input type="radio" id="back-end" name="role" value="back-end" />
+            <label for="back-end">Back End</label>
+          </div>
+          <div>
+            <input type="radio" id="full-stack" name="role" value="full-stack" />
+            <label for="full-stack">Full Stack</label>
+          </div>
+        </fieldset>
+        <fieldset>
+          <legend>By checking this box, I confirm that all information provided is correct:</legend>
+          <input type="checkbox" id="chbx" name="agree" value="Yes!" />
+          <label for="chbx">I agree</label>
+        </fieldset>
+        <label for="comments">Comments:</label>
+        <textarea id="comments" name="comments" rows="2" cols="33">
+        </textarea>
+        <div class="form-example">
+          <button type="button">Submit</button>
+        </div>
+      </form>
+      
+
+    </main>
+    <hr/>
+    <footer>
+      <details>
+        <summary>Next Steps</summary>
+        Next meeting will be announced shortly.
+      </details>
+    </br>
+      <video controls width="250">
+        <source src="/assets/Outrocopy.mov"/>
+      </video>
+      <audio controls src="/assets/Outrocopy.MP3"></audio>
+    </footer>
+  </body>
+</html>
