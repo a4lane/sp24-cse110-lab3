@@ -1,3 +1,3 @@
-# Lab 2 
-https://a4lane.github.io/cse110-lab2/index.html
+# Lab 3
+https://a4lane.github.io/sp24-cse110-lab3
 
