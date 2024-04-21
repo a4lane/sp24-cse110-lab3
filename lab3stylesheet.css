@@ -1,0 +1,72 @@
+/* element selector */
+h1 {
+
+}
+
+/* selector list */
+h2, h3 {
+
+}
+
+/* id selector */
+#form {
+
+
+}
+
+/* class selector */
+.member {
+
+
+}
+
+/* pseudo-class selector */
+:hover {
+
+
+}
+
+/* pseudo-class selector */
+:active {
+
+
+}
+
+/* attribute selector */
+a[href^="#"] {
+
+}
+
+/* universal selector */
+* {
+
+}
+
+/* descendant combinator */
+ul li {
+
+}
+
+/* child combinator & combining 2 selectors */
+div.form-example > label {
+
+}
+
+/* general sibling combinator */
+img ~ p {
+
+}
+
+/* adjacenet sibling combinator */
+h2 + ol {
+
+}
+
+
+
+/* new selector 1 */
+:has(){
+
+
+}
+
