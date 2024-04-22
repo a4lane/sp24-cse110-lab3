@@ -2,6 +2,8 @@
 h1 {
     /* color by name */
     color: rebeccapurple;
+    /* text align */
+    text-align: center;
 
 }
 
@@ -14,24 +16,27 @@ h2, h3 {
 
 /* id selector */
 #form {
+    
 
 
 }
 
 /* class selector */
 .member {
+    /* text decoration */
+    text-decoration: underline black;
+
+}
+
+/* pseudo-class selector */
+a:hover {
+    
 
 
 }
 
 /* pseudo-class selector */
-:hover {
-
-
-}
-
-/* pseudo-class selector */
-:active {
+button:active {
 
 
 }
@@ -40,6 +45,7 @@ h2, h3 {
 a[href^="#"] {
     /* wider-gamut color 1 */
     color: color(display-p3 0.5 0.5 1 / .5)
+    
 
 }
 
@@ -57,12 +63,17 @@ ul li {
 
 /* child combinator & combining 2 selectors */
 div.form-example > label {
+    /* wider-gamut color 2 */
     color : color-mix(in lch, plum, red);
+    /* display type 1 */
+    display: block;
+    
 }
 
 /* general sibling combinator */
 img ~ p {
-
+    text-align: center;
+    
 
 }
 
@@ -70,14 +81,16 @@ img ~ p {
 h2 + ol {
     /* color by hex code */
     color: #090;
-
+    /* display type 2 */
+    display: inline-block;
 }
 
 
 
 /* new selector 1 */
-:has(){
+footer:has(video){
 
 
 }
+
 
