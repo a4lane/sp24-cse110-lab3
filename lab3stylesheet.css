@@ -1,10 +1,14 @@
 /* element selector */
 h1 {
+    /* color by name */
+    color: rebeccapurple;
 
 }
 
 /* selector list */
 h2, h3 {
+    /* color by red, green, blue values */
+    color: rgb(215, 96, 108)
 
 }
 
@@ -34,6 +38,8 @@ h2, h3 {
 
 /* attribute selector */
 a[href^="#"] {
+    /* wider-gamut color 1 */
+    color: color(display-p3 0.5 0.5 1 / .5)
 
 }
 
@@ -44,21 +50,26 @@ a[href^="#"] {
 
 /* descendant combinator */
 ul li {
+    /* color by hue, saturation, lightness values */
+    color: hsl(30deg 82% 43%);
 
 }
 
 /* child combinator & combining 2 selectors */
 div.form-example > label {
-
+    color : color-mix(in lch, plum, red);
 }
 
 /* general sibling combinator */
 img ~ p {
 
+
 }
 
 /* adjacenet sibling combinator */
 h2 + ol {
+    /* color by hex code */
+    color: #090;
 
 }
 
