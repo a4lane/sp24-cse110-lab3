@@ -42,15 +42,12 @@ h2, h3 {
 
 /* pseudo-class selector */
 a:hover {
-    
-
-
+    background-color: yellow;
 }
 
 /* pseudo-class selector */
 button:active {
-
-
+    box-shadow: 2px 2px 5px #fc894d;
 }
 
 /* attribute selector */
