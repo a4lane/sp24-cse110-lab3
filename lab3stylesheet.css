@@ -4,6 +4,17 @@ h1 {
     color: rebeccapurple;
     /* text align */
     text-align: center;
+    /* border styling */
+    border-style: solid;
+    border-color: green;
+    border-width: 5px;
+    border-radius: 10px;
+    /* margin - auto */
+    margin: auto;
+    /* padding - long */
+    padding-top: 5px;
+    padding-bottom: 5px;
+
 
 }
 
@@ -68,6 +79,8 @@ div.form-example > label {
     /* display type 1 */
     display: block;
     
+    margin: 5px;
+    
 }
 
 /* general sibling combinator */
@@ -91,6 +104,18 @@ h2 + ol {
 footer:has(video){
 
 
+}
+
+details {
+    /* border styling */
+    border-style: dashed;
+    border-color: palevioletred;
+    /* margin - long */
+    margin-top: 25px;
+    /* margin - short */
+    margin: 25px 25px 25px 25px;
+    /* padding - short */
+    padding: 10px 10px 10px 10px;
 }
 
 
