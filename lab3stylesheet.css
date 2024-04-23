@@ -7,6 +7,7 @@ h1 {
     /* border styling */
     border-style: solid;
     border-color: green;
+    /* absolute unit */
     border-width: 5px;
     border-radius: 10px;
     /* margin - auto */
@@ -28,8 +29,8 @@ h2, h3 {
 
 /* id selector */
 #form {
-    
-
+    /* relative unit */
+    height: 3vh;
 
 }
 
@@ -42,19 +43,20 @@ h2, h3 {
 
 /* pseudo-class selector */
 a:hover {
+    /* background */
     background-color: yellow;
 }
 
 /* pseudo-class selector */
 button:active {
-    box-shadow: 2px 2px 5px #fc894d;
+    /* absolute unit */
+    box-shadow: 2pt 2pt 5pt gray;
 }
 
 /* attribute selector */
 a[href^="#"] {
     /* wider-gamut color 1 */
     color: color(display-p3 0.5 0.5 1 / .5);
-
 
     
 
@@ -78,15 +80,15 @@ div.form-example > label {
     color : color-mix(in lch, plum, red);
     /* display type 1 */
     display: block;
-
-    margin: 5px;
+    /* relatice unit */
+    margin: 1vw;
     
 }
 
 /* general sibling combinator */
 img ~ p {
     text-align: center;
-    
+
 
 }
 
@@ -106,7 +108,8 @@ footer:has(video){
     display: flex;
     flex-direction: column;
     align-items: baseline;
-    gap: 10px;
+    /* relative unit */
+    gap: 5em;
 
 
 }
@@ -118,7 +121,8 @@ details {
     /* margin - long */
     margin-top: 25px;
     /* margin - short */
-    margin: 25px 25px 25px 25px;
+    /* absolute unit */
+    margin: 1pc 1pc 1pc 1pc;
     /* padding - short */
     padding: 10px 10px 10px 10px;
 }
