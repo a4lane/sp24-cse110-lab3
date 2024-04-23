@@ -1,3 +1,10 @@
+/* web font */
+@font-face {
+    font-family: "Montserrat";
+    src: "assets/Montserrat-Regular.ttf"
+  }
+
+
 :root {
     /* declare variable */
     --favorite-color: violet;
@@ -84,6 +91,8 @@ nav {
     max-width: 100vw;
     /* sizing - min-width */
     min-width: auto;
+
+    font-family: "Montserrat";
 
 }
 
