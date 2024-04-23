@@ -3,6 +3,13 @@
     --favorite-color: violet;
 }
 
+/* mdeia query */
+@media only screen and (max-width: 768px) {
+    div.form-example {
+        width: 100%;
+    }
+}
+
 /* element selector */
 h1 {
     /* color by name */
@@ -157,3 +164,4 @@ img {
     position: relative;
     left: 30vw;
 }
+
