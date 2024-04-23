@@ -1,3 +1,8 @@
+:root {
+    /* declare variable */
+    --favorite-color: violet;
+}
+
 /* element selector */
 h1 {
     /* color by name */
@@ -126,7 +131,8 @@ footer:has(video){
 details {
     /* border styling */
     border-style: dashed;
-    border-color: palevioletred;
+    /* use variable w/ fallback */
+    border-color: var(--favorite-color, initial);
     /* margin - long */
     margin-top: 25px;
     /* margin - short */
